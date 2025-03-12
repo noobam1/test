@@ -6,7 +6,6 @@ ULTIMATE PYTHON SYSTEM: Users, Coins, Admin Broadcasts, Card Checking, and Teleg
 # SECTION 1: IMPORTS & SETUP
 # --------------------------
 from dotenv import load_dotenv
-   load_dotenv()  # Load environment variables from .env file
 import concurrent.futures
 import heapq
 import json
@@ -29,6 +28,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from telegram import Update, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv() 
 
 # ---------------------------
 # SECTION 2: CORE SYSTEMS
@@ -38,7 +41,7 @@ class UserManager:
     """Handles user accounts, coins, and authentication"""
     
     USERS_FILE = "users.json"
-    ADMIN_PASSWORD = "admin123"  # Change in production
+    ADMIN_PASSWORD = "noob9587"  # Change in production
     
     def __init__(self):
         self.current_user = None
