@@ -9,8 +9,8 @@ from telebot import types
 from gatet import Tele  # Import the Tele function from gatet.py
 
 # Bot configuration
-TOKEN = "(7461025500:AAFQWgTntHmkODVeEJv3_egWaF_SS5vLDfU)"  # Replace with your bot token
-OWNER_ID = (708030615)  # Replace with your owner ID
+TOKEN = "7461025500:AAFQWgTntHmkODVeEJv3_egWaF_SS5vLDfU"  # Replace with your bot token
+OWNER_ID = 708030615  # Replace with your owner ID
 
 # Initialize the bot
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
