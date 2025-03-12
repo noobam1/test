@@ -1,2 +1,0 @@
-ADMINS = [708030615]  # Admin User IDs
-GROUP_ID = -1001668949721  # Your Group ID
