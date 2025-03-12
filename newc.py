@@ -5,6 +5,8 @@ ULTIMATE PYTHON SYSTEM: Users, Coins, Admin Broadcasts, Card Checking, and Teleg
 # --------------------------
 # SECTION 1: IMPORTS & SETUP
 # --------------------------
+from dotenv import load_dotenv
+   load_dotenv()  # Load environment variables from .env file
 import concurrent.futures
 import heapq
 import json
